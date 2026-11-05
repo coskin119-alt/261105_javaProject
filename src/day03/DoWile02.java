@@ -35,7 +35,7 @@ public class DoWile02 {
 			
 		} while (menu != 3);
 
-	}
+		scanner.close();
 
-	scanner.close();
+	}
 }
