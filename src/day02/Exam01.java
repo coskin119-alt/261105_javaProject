@@ -19,6 +19,7 @@ public class Exam01 {
 		// 국어 점수 범위 판별
 		if (kor < 0 || kor > 100) {
 			System.out.println("점수가 잘못 입력되어 종료합니다.");
+			scan.close();
 			return;
 		}
 		
@@ -30,6 +31,7 @@ public class Exam01 {
 		// 영어 점수 범위 판별
 		if (eng < 0 || eng > 100) {
 			System.out.println("점수가 잘못 입력되어 종료합니다.");
+			scan.close();
 			return;
 		}
 		
@@ -41,6 +43,7 @@ public class Exam01 {
 		// 수학 점수 범위 판별
 		if (math < 0 || math > 100) {
 			System.out.println("점수가 잘못 입력되어 종료합니다.");
+			scan.close();
 			return;
 		}
 		
@@ -52,9 +55,6 @@ public class Exam01 {
 		System.out.println("합계 = " + sum);
 		System.out.println("평균 = " + avr);
 		System.out.println(avr >= 60 ? "합격" : "불합격");
-
-		
-		
 		
 		scan.close();
 

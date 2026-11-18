@@ -15,7 +15,7 @@ public class Exam02 {
 
 		Random random = new Random();
 
-		int a, b, c, d;
+		int a, b;
 		char operator;
 		String result;
 

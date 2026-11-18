@@ -30,17 +30,16 @@ public class Math01 {
 		System.out.println("floor : random X 10 = " + (int)Math.floor(randomNum*10));
 		System.out.println("ceil  : random X 10 = " + (int)Math.ceil(randomNum*10));
 		
-		int random = (int)(Math.random()*10);
+		//int random = (int)(Math.random()*10);
 		
-		// (int)(math.random()*갯수) + 시작
-		// 주사위 값 (1 ~ 6) : (int)(math.random()*6)+1
+		// double = Math.random()
+		// (int)(Math.random()*갯수) + 시작
+		// (예) 주사위 값 (1 ~ 6) : (int)(Math.random()*6)+1
 
 		// Random() 클래스
-		
-		Random random1 = new Random();
-		
 		// int 자료형으로 랜덤 값을 리턴 (0~9)
 		// random.nextInt(count)+start
+		Random random1 = new Random();
 		System.out.println(random1.nextInt(45)+1);
 		
 		// Math.max(값1, 값2) / Math.min(값1, 값2)
